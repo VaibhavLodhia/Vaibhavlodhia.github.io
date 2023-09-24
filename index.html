@@ -1,0 +1,461 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Vaibhav Lodhiya| Data enthusiastic</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="vlodhiya, Viabhav, Data Analytics" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="[Your name here] | Developer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Made using DevFolio Template" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <!-- <meta property="twitter:url" content="https://devfolio.js.org" /> -->
+    <!-- Recommended to use the same text used within <title> element -->
+    <!-- <meta property="twitter:title" content="[Your name here] | Developer" /> -->
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Made using DevFolio Template"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    /> -->
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <style>
+    .card-container {
+        display: flex;
+    }
+
+    .card {
+        flex: 1;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+</style>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hello I am <span class="text-color-main name">Vaibhav Lodhiya</span>
+          <br />
+          Data Analyst | Data Scientist | Software Developer.
+        </h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iurBngXL_54?si=lUqHPDaLiJ4hePtD" frameborder="0" allowfullscreen></iframe>
+        <!-- <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Know Me</a>
+        </p>
+      </section> -->
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+    <!-- <section id="about">
+    <h2 class="section-title">Technical skills</h2>
+        <div class="contact-wrapper">
+          <p class="cta-btn cta-btn--resume">Linked In</p>
+          <p class="cta-btn cta-btn--resume">Linked In</p>
+          <p class="cta-btn cta-btn--resume">Linked In</p>
+          <p class="cta-btn cta-btn--resume">Linked In</p>
+          <p class="cta-btn cta-btn--resume">Linked In</p>
+          </div>
+        </section> -->
+    <!-- About Section -->
+        <!-- <div id = "hero">
+        </div> -->
+    
+    <section id="about">
+      
+
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+
+          
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              👋 Hey there, welcome to my corner of the web! 📊
+            </p>
+            <p class="about-wrapper__info-text">
+              I'm all about making sense of data and crafting cool software stuff. Think of me as your friendly neighborhood Data Analyst, aspiring Data Scientist, and budding Software Developer. I'm like a detective with Excel, PowerBI, SQL, and Python – solving data mysteries and finding the stories hidden in numbers
+            </p>
+            <p class="about-wrapper__info-text">
+              You know those computer brains that can understand human language? Yep, I tinker with those too. Machine Learning and Natural Language Processing are my secret sauce. But I'm not all behind-the-scenes – I'm also into web development, creating stuff that's not just smart but looks great too.
+            </p>
+            <p class="about-wrapper__info-text">
+              Right now, I'm on a quest for more knowledge, pursuing my Master's in Data Science. But I'm not all theory – I've been in the real-world action as a Machine Learning Intern and Software Developer Intern. I've got projects to prove it – real stuff that I've whipped up and polished for you to see. Join me, and let's cook up some digital magic
+            </p>
+            
+            <span class="about-wrapper__cta">
+              <a href="https://drive.google.com/file/d/1sNZG5MLuBWvtcHhFTPesNC_duSZTbkVJ/view?usp=drive_link" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+    <h2 class="section-title dark-blue-text">Technical skills</h2>
+    <div class="card-container">
+      
+      <!-- <div class="card">
+          <h2>Power BI</h2>
+      </div>
+      <div class="card">
+        <h2>Excel</h2> -->
+      <!-- </div> -->
+      <div class="card">
+        <h2>🐍Languages:</h2>
+        <p>C,C++</p>
+        <p>Javascript</p>
+        <p>Python</p>
+    </div>
+    <div class="card">
+      <h2>📊 Database:</h2>
+      <p>MySQL</p>
+      <p>PostgreSQL</p>
+      <p>SQLite</p>
+    </div>
+      <div class="card">
+        <h2>🧮 Software and Tools:</h2>
+        <p>Power BI</p>
+        <p>Excel</p>
+        <p>Tableau</p>
+      </div>
+      <!-- <div class="card">
+        <h2>Machine Learning</h2>
+    </div> -->
+    <div class="card">
+      <h2>🌐 Web Technologies:</h2>
+      <p>Html5</p>
+      <p>CSS</p>
+      <p>Node.js</p>
+      <p>React.js</p>
+  </div>
+  
+
+  </div>
+  <div class ="card">
+
+  </div>
+  <div class ="card">
+
+  </div>
+  <div class ="card">
+
+  </div>
+
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Business Intelligence [Power BI | DAX | Excel]</h3>
+              <p class="project-wrapper__text-info">
+              • Designed a Power bi report to enable quick business insights to clients across all 3 markets which includes marketing, sales, finance, and supply chain.
+               </p>
+              <p>
+              • Operated on data set having more than 1000K records to derive useful business insights on 5 different dashboards.
+              </p>
+              <p>
+              • Incorporated Power query and Dax for creating calculated columns and measures
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiYTliNDUxMTgtNTcxMC00ZjM1LWExYzUtODIzMjRjYjM5OWIwIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/VaibhavLodhiya/Business-Insights-360
+                " target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project1.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Providing Insights to Revenue Team in Hospitality Domain [Power BI | Power Query | Excel]</h3>
+              <p class="project-wrapper__text-info">
+              • Prepped a dashboard on Power Bi which had Hotel booking data with over 9000 bookings where property’s revenue and ratings were demonstrated by key metrics.
+              </p>
+              <p>
+              • Applied Do-nut chart to visualize revenue generated by Business and Luxury Category
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiNzRmMDUzM2QtOGRkZC00MDRhLWE0YjEtNGE3OGUzMjJjN2FiIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/VaibhavLodhiya/Revenue_Insights_in_Hospitality_Domain" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project2.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Financial Analysis [Power BI | Excel}</h3>
+              <p class="project-wrapper__text-info">
+                
+                • The purpose of this Data Analysis project was to ensure timely delivery of crucial financial reports to clients, enhancing
+                decision-making processes
+                </p>
+                <p>
+                • Prepped a report on Power bi which had multi company financial data set of more than 4000 transactions where revenue
+                and profit were KPI which improved client’s decision making
+                </p>
+                <p>
+                • Applied Area chart to visualize Net sales Performance based on Selected measure.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiOThmYWQwYTEtOTg3NC00MWQ5LWExMGYtNzU0YzZmNWI3ZDgzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/VaibhavLodhiya/Finanacial-analysis" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project3.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <!-- <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Linked In</p>
+          <a href=" https://www.linkedin.com/in/vaibhav-lodhiya" class="cta-btn cta-btn--resume">Linked In</a>
+          <a href="mailto:vlodhiya@iu.edu" class="cta-btn cta-btn--resume">Email</a>
+          <a href="" class="cta-btn cta-btn--resume">Call</a>
+        </div>
+       
+      </div>
+    </section> -->
+    <!-- END Contact Section -->
+ 
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+      <h2 class="section-title">Contact</h2>
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <!-- <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Phone"
+          >
+            <i class="fas fa-phone"></i>
+          <p>8123619872</p>
+          </a> -->
+        
+          <a
+            href="mailto:vlodhiya@iu.edu"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Email"
+          >
+            <i class="fas fa-envelope"></i>
+            <!-- <p>>Email</p> -->
+          </a>
+  
+          <a
+            href=" https://www.linkedin.com/in/vaibhav-lodhiya"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/VaibhavLodhiya"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          <!-- &copy; -->
+           <!-- <span id="year"></span> - Template by -->
+          <!-- <a
+            href="https://github.com/AnilSeervi"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Anil Seervi</a>.  -->
+            <br />Made with &hearts;
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
